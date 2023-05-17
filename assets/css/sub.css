@@ -1,0 +1,73 @@
+@import url(fontawesome-all.min.css);
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url(reset.css);
+
+/* common */
+	html {box-sizing: border-box;}
+
+	*, *:before, *:after {box-sizing: inherit;}
+
+	body {background: linear-gradient(90.18deg, rgba(251, 194, 235, 0.57)0.14%,rgba(166, 1193, 238, 0.53)99.83%);position: relative;}
+
+	body, input, select, textarea {font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 17pt;font-weight: 300;line-height: 1.65;}
+
+	a {transition: color 0.2s ease, border-bottom 0.2s ease;text-decoration: none;
+		border-bottom: dotted 1px;color: inherit;}
+
+		a:hover {border-bottom-color: transparent;}
+	
+/* Button */
+button,.button {appearance: none;border: 0;cursor: pointer;display: inline-block;
+		font-weight: 300;height: 2.75em;line-height: 2.75em;min-width: 9.25em;padding: 0 1.5em;text-align: center;text-decoration: none;white-space: nowrap;border-radius: 7%;background: #9E52D4;color: #fff;}
+
+/* Spotlight */
+.spotlight {display: flex;align-items: center;margin: 0 0 2em 0;}
+.spotlight .content {flex: 1;}
+.spotlight .content > :last-child {margin-bottom: 0;}
+.spotlight .content header.major {margin: 0 0 2em 0;}
+
+/* Header */
+#header {padding: 5em 5em 1em 5em ;text-align: center;position: relative;}
+.name{font-weight: 700;color: #111;font-size: 30px;}
+.job{font-weight: 900;color: #111;font-size: 40px;}
+/* Nav */
+#nav {color: #fff;position: absolute;width: 64em;max-width: calc(100% - 4em);padding: 1.5em;background-color: #CED9F1;border-top-left-radius: 0.25em;border-top-right-radius: 0.25em;cursor: default;text-align: center;}
+#nav ul {margin: 0;padding: 0;list-style: none;}
+#nav ul li {transition: margin 0.2s ease;display: inline-block;	margin: 0 0.35em;padding: 0;vertical-align: middle;}
+#nav ul li a {transition: font-size 0.2s ease;display: inline-block;height: 2.25em;			line-height: 2.25em;padding: 0 2.25em;border: 0;border-radius: 8px;box-shadow: inset 0 0 0 1px transparent;letter-spacing: 1.5px;}
+#nav ul li a i{padding-left: 10px;}
+#nav ul li a:hover {background-color: #E2D3F4;}
+#nav ul li a.active {background-color: #A1B8FF;box-shadow: none;}
+#nav.alt {position: fixed;top: 0;padding: 0.5em 1em;background-color: #CED9F1;border-top-left-radius: 0;border-top-right-radius: 0;z-index: 10000;}
+#nav.alt ul li {margin: 0 0.175em;}
+#nav.alt ul li a {font-size: 0.9em;}
+
+/* Main */
+#main {background-color: #F9DDD8;color: #111;border-radius: 0.25em;}
+#main dt {color: #111;font-size: 35px;padding-left: 20px;}
+#main > .main {padding: 5em 5em 3em 5em ;border-top: solid 1px #fff;}
+
+/* section */
+/* introduce */
+.main .image img{width: 15vw;border-radius: 50%;margin-left: 80%;margin-top: 5%;}
+.hello{position: absolute;top: 10%;font-weight: 700;}
+.main ul{position: absolute;top: 11%;letter-spacing: 1.5px;line-height: 2.5;}
+.main dl{line-height: 2.5;}
+.main dl dt{font-weight: 900;}
+
+/* first */
+.special .skill{text-align: left;position: relative;}
+.special .skill dd{padding-bottom: 20px;width: 5vw;text-align: center;}
+.special .skill dd:nth-child(4){position: absolute;top: 13%;left: 20%;}
+.special .skill dd:nth-child(5){position: absolute;top: 43%;left: 20%;}
+.special .skill dd:hover{transform: scale(1.2);transition: 1.5s;}
+
+.special .etc {position: absolute;top: 20%;left: 55%;}
+.special .etc dd{padding-bottom: 20px;width: 5vw;text-align: center;}
+.special .etc dd:nth-child(4){position: absolute;top: 11%;left: 260%;}
+.special .etc dd:nth-child(5){position: absolute;top: 40%;left: 260%;}
+.special .etc dd:nth-child(6){position: absolute;top: 70%;left: 260%;}
+.special .etc dd:hover{transform: scale(1.2);transition: 1.5s;}
+/* Wrapper */
+#wrapper {width: 64em;max-width: calc(100% - 4em);margin: 0 auto;}
