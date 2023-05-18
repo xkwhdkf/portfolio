@@ -51,8 +51,8 @@ button,.button {appearance: none;border: 0;cursor: pointer;display: inline-block
 /* section */
 /* introduce */
 .main .image img{width: 15vw;border-radius: 50%;margin-left: 80%;margin-top: 5%;}
-.hello{position: absolute;top: 10%;font-weight: 700;}
-.main ul{position: absolute;top: 11%;letter-spacing: 1.5px;line-height: 2.5;}
+.hello{position: absolute;top: 15%;font-weight: 700;}
+.main ul{position: absolute;top: 17%;letter-spacing: 1.5px;line-height: 2.5;}
 .main dl{line-height: 2.5;}
 .main dl dt{font-weight: 900;}
 
@@ -63,11 +63,46 @@ button,.button {appearance: none;border: 0;cursor: pointer;display: inline-block
 .special .skill dd:nth-child(5){position: absolute;top: 43%;left: 20%;}
 .special .skill dd:hover{transform: scale(1.2);transition: 1.5s;}
 
-.special .etc {position: absolute;top: 20%;left: 55%;}
+.special .etc {position: absolute;top: 30%;left: 55%;}
 .special .etc dd{padding-bottom: 20px;width: 5vw;text-align: center;}
 .special .etc dd:nth-child(4){position: absolute;top: 11%;left: 260%;}
 .special .etc dd:nth-child(5){position: absolute;top: 40%;left: 260%;}
 .special .etc dd:nth-child(6){position: absolute;top: 70%;left: 260%;}
 .special .etc dd:hover{transform: scale(1.2);transition: 1.5s;}
+
+/* second */
+#second video.ipad:hover{transform: scale(1.2);transition: 1.5s;}
+#second video.iphone{position: absolute;top: 10%;left: 35%;}
+#second video.iphone:hover{transform: scale(1.2);transition: 1.5s;}
+#second video.mac:hover{transform: scale(1.2);transition: 1.5s;}
+#second{position: relative;}
+#second div.cjone{position: absolute;top: 20%;right: 15%;}
+#second div.header{font-weight: 900;font-size: 2.5em;}
+#second div.year{font-weight: 700;font-size: 1.3em;}
+#second div.html{position: absolute;top: 100%;}
+#second div.css{position: absolute;top: 100%;right: 55%;}
+#second div.js{position: absolute;top: 100%;right: 25%;}
+#second div ol{position: absolute;top: 150%;font-weight: 600;}
+#second button.more{position: absolute;top: 280%;}
+#second button.git{position: absolute;top: 280%;right: -10%;}
+#second div img:nth-child(1){width: 3vw;}
+#second div img:nth-child(1):hover{transform: scale(1.3);transition: 1.5s;}
+
+/* third */
+#third img:nth-child(1){width: 20vw;background: url(movie);}
+#third img:nth-child(2){width: 15vw;}
+#third img:nth-child(3){width: 35vw;}
+#third{position: relative;}
+#third div.fescaro{position: absolute;top: 20%;right: 15%;}
+#third div.header{font-weight: 900;font-size: 2.5em;}
+#third div.year{font-weight: 700;font-size: 1.3em;}
+#third div.html{position: absolute;top: 100%;}
+#third div.css{position: absolute;top: 100%;right: 55%;}
+#third div.js{position: absolute;top: 100%;right: 25%;}
+#third div ol{position: absolute;top: 150%;font-weight: 600;}
+#third button.more{position: absolute;top: 280%;}
+#third button.git{position: absolute;top: 280%;right: -10%;}
+#third div img:nth-child(1){width: 3vw;}
+#third div img:nth-child(1):hover{transform: scale(1.3);transition: 1.5s;}
 /* Wrapper */
 #wrapper {width: 64em;max-width: calc(100% - 4em);margin: 0 auto;}
