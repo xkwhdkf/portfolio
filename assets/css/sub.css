@@ -89,9 +89,10 @@ button,.button {appearance: none;border: 0;cursor: pointer;display: inline-block
 #second div img:nth-child(1):hover{transform: scale(1.3);transition: 1.5s;}
 
 /* third */
-#third img:nth-child(1){width: 20vw;background: url(movie);}
-#third img:nth-child(2){width: 15vw;}
-#third img:nth-child(3){width: 35vw;}
+#third video.ipad:hover{transform: scale(1.2);transition: 1.5s;}
+#third video.iphone{position: absolute;top: 10%;left: 35%;}
+#third video.iphone:hover{transform: scale(1.2);transition: 1.5s;}
+#third video.mac:hover{transform: scale(1.2);transition: 1.5s;}
 #third{position: relative;}
 #third div.fescaro{position: absolute;top: 20%;right: 15%;}
 #third div.header{font-weight: 900;font-size: 2.5em;}
@@ -104,5 +105,19 @@ button,.button {appearance: none;border: 0;cursor: pointer;display: inline-block
 #third button.git{position: absolute;top: 280%;right: -10%;}
 #third div img:nth-child(1){width: 3vw;}
 #third div img:nth-child(1):hover{transform: scale(1.3);transition: 1.5s;}
+
+/* contact */
+#cta{position: relative;}
+#cta div.git{background:  #8C3FD2;border-radius: 8px;padding: 2%;width: 50vw;position: absolute;top: 18%;left: 15%;}
+#cta div.git img{width: 5vw;padding-left: 2%;position: absolute;top: 15%;left: 80%;}
+#cta div.git a{color: #fff;font-size: 1.5em;}
+
+#cta div.phone{background:  #8C3FD2;border-radius: 8px;padding: 2%;width: 50vw;position: absolute;top: 58%;left: 15%;}
+#cta div.phone img{width: 3.5vw;padding-left: 2%;position: absolute;top: 13%;left:82%;}
+#cta div.phone {color: #fff;font-size: 1.5em;}
+
+#cta div.tistory{background:  #8C3FD2;border-radius: 8px;padding: 2%;width: 50vw;position: absolute;top: 78%;left: 15%;}
+#cta div.tistory img{width: 3.5vw;padding-left: 2%;position: absolute;top: 13%;left:82%;}
+#cta div.tistory {color: #fff;font-size: 1.5em;}
 /* Wrapper */
 #wrapper {width: 64em;max-width: calc(100% - 4em);margin: 0 auto;}
