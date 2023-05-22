@@ -42,6 +42,17 @@ button,.button {appearance: none;border: 0;cursor: pointer;display: inline-block
 #nav.alt {position: fixed;top: 0;padding: 0.5em 1em;background-color: #CED9F1;border-top-left-radius: 0;border-top-right-radius: 0;z-index: 10000;}
 #nav.alt ul li {margin: 0 0.175em;}
 #nav.alt ul li a {font-size: 0.9em;}
+@media screen and (max-width: 736px) {
+
+	#nav {
+		display: none;
+	}
+
+		#nav + #main {
+			padding-top: 0;
+		}
+
+}
 
 /* Main */
 #main {background-color: #F9DDD8;color: #111;border-radius: 0.25em;}
@@ -51,8 +62,8 @@ button,.button {appearance: none;border: 0;cursor: pointer;display: inline-block
 /* section */
 /* introduce */
 .main .image img{width: 15vw;border-radius: 50%;margin-left: 80%;margin-top: 5%;}
-.hello{position: absolute;top: 15%;font-weight: 700;}
-.main ul{position: absolute;top: 17%;letter-spacing: 1.5px;line-height: 2.5;}
+.hello{position: absolute;top: 18%;font-weight: 700;}
+.main ul{position: absolute;top: 20%;letter-spacing: 1.5px;line-height: 2.5;}
 .main dl{line-height: 2.5;}
 .main dl dt{font-weight: 900;}
 
@@ -63,7 +74,7 @@ button,.button {appearance: none;border: 0;cursor: pointer;display: inline-block
 .special .skill dd:nth-child(5){position: absolute;top: 43%;left: 20%;}
 .special .skill dd:hover{transform: scale(1.2);transition: 1.5s;}
 
-.special .etc {position: absolute;top: 30%;left: 55%;}
+.special .etc {position: absolute;top: 34.5%;left: 55%;}
 .special .etc dd{padding-bottom: 20px;width: 5vw;text-align: center;}
 .special .etc dd:nth-child(4){position: absolute;top: 11%;left: 260%;}
 .special .etc dd:nth-child(5){position: absolute;top: 40%;left: 260%;}
@@ -108,16 +119,32 @@ button,.button {appearance: none;border: 0;cursor: pointer;display: inline-block
 
 /* contact */
 #cta{position: relative;}
-#cta div.git{background:  #8C3FD2;border-radius: 8px;padding: 2%;width: 50vw;position: absolute;top: 18%;left: 15%;}
-#cta div.git img{width: 5vw;padding-left: 2%;position: absolute;top: 15%;left: 80%;}
+#cta div.git{background:  #8C3FD2;border-radius: 8px;padding: 2%;width: 10vw;height: 14vh; position: absolute;top: 18%;left: 15%;text-align: center;}
+#cta div.git img{width: 5vw;padding-left: 2%;}
 #cta div.git a{color: #fff;font-size: 1.5em;}
 
-#cta div.phone{background:  #8C3FD2;border-radius: 8px;padding: 2%;width: 50vw;position: absolute;top: 58%;left: 15%;}
+#cta div.phone{background:  #8C3FD2;border-radius: 8px;padding: 2%;width: 30vw;height: 14vh;position: absolute;top: 18%;left: 34%;}
 #cta div.phone img{width: 3.5vw;padding-left: 2%;position: absolute;top: 13%;left:82%;}
 #cta div.phone {color: #fff;font-size: 1.5em;}
 
-#cta div.tistory{background:  #8C3FD2;border-radius: 8px;padding: 2%;width: 50vw;position: absolute;top: 78%;left: 15%;}
-#cta div.tistory img{width: 3.5vw;padding-left: 2%;position: absolute;top: 13%;left:82%;}
+#cta div.tistory{background:  #8C3FD2;border-radius: 8px;padding: 2%;width: 10vw;height: 14vh;position: absolute;top: 18%;left: 80%;text-align: center;}
+#cta div.tistory img{width: 3.5vw;padding-left: 2%;}
 #cta div.tistory {color: #fff;font-size: 1.5em;}
 /* Wrapper */
 #wrapper {width: 64em;max-width: calc(100% - 4em);margin: 0 auto;}
+
+@media screen and (max-width: 1680px){
+
+}
+@media screen and (max-width: 1280px){
+
+}
+@media screen and (max-width: 980px){
+
+}
+@media screen and (max-width: 736px){
+
+}
+@media screen and (max-width: 480px){
+	
+}

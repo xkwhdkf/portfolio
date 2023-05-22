@@ -1,0 +1,16 @@
+@import url(reset.css);
+
+body{position: relative;background: #FBC2EB;}
+ul{font-weight: 900;font-size: 1.5em;}
+/* css */
+.css{padding: 3em;}
+.css li img{width: 30vw;}
+/* html */
+.html{position: absolute;top: 4%;right: 4%;}
+.html li img{width: 40vw;}
+/* lighthouse */
+.lighthouse{padding: 3em;}
+.lighthouse li img{width: 30vw;}
+/* W3C */
+.w3c{padding: 3em;}
+.w3c li img{width: 25vw;}
