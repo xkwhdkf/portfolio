@@ -119,17 +119,13 @@ button,.button {appearance: none;border: 0;cursor: pointer;display: inline-block
 
 /* contact */
 #cta{position: relative;}
-#cta div.git{border-radius: 8px;padding: 2%;width: 10vw;height: 14vh; position: absolute;top: 18%;left: 15%;text-align: center;}
-#cta div.git img{width: 5vw;padding-left: 2%;}
-#cta div.git a{color: #fff;font-size: 1.5em;}
+#cta div.contact{text-align: center;}
+#cta div.contact .ct{font-size: 1.5em;font-weight: 900;}
+#cta div span.click{font-size: 0.8em;color: #999;}
+#cta div.git{padding: 2%;}
+#cta div.phone{padding: 2%;}
+#cta div.tistory{padding: 2%;}
 
-#cta div.phone{border-radius: 8px;padding: 2%;width: 30vw;height: 14vh;position: absolute;top: 18%;left: 34%;}
-#cta div.phone img{width: 3.5vw;padding-left: 2%;position: absolute;top: 13%;left:82%;}
-#cta div.phone {color: #fff;font-size: 1.5em;}
-
-#cta div.tistory{border-radius: 8px;padding: 2%;width: 10vw;height: 14vh;position: absolute;top: 18%;left: 80%;text-align: center;}
-#cta div.tistory img{width: 3.5vw;padding-left: 2%;}
-#cta div.tistory {color: #fff;font-size: 1.5em;}
 /* Wrapper */
 #wrapper {width: 64em;max-width: calc(100% - 4em);margin: 0 auto;}
 
