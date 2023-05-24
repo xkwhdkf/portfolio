@@ -19,14 +19,14 @@
 }
 @media screen and (max-width: 736px){
   body{position: relative;}
-  .center div.intro{font-size: 35px;padding-right: 540px;}
-  .container .link{position: absolute;left: 25%;top: 10%;}
+  .center div.intro{font-size: 35px;padding-right: 340px;}
+  .container .link{position: absolute;left: 35%;top: 10%;}
   .container .link a{padding: 15px 35px;}
 }
 @media screen and (max-width: 480px){
   body{position: relative;}
   .center div.intro{font-size: 25px;padding-right: 400px;}
-  .container .link{position: absolute;left: 20%;top: -10%;}
+  .container .link{position: absolute;left: 25%;top: -10%;}
 }
 /* 커서 링크 https://tistory2.daumcdn.net/tistory/6229223/skin/images/cursor.png */
 body{background: linear-gradient(90.18deg, rgba(251, 194, 235, 0.57)0.14%,rgba(166, 1193, 238, 0.53)99.83%); padding-top: 5em;display: flex;justify-content: center;overflow: hidden;position: relative;}
